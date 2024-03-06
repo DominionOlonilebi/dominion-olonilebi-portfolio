@@ -29,7 +29,7 @@ const Project = () => {
             clients.
           </p>
           <Row className="d-flex flex-row justify-content-center mb-4">
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -52,7 +52,7 @@ const Project = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -75,7 +75,7 @@ const Project = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -100,7 +100,7 @@ const Project = () => {
             </Col>
           </Row>
           <Row className="d-flex flex-row justify-content-center mb-4">
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -123,7 +123,7 @@ const Project = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -146,7 +146,7 @@ const Project = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -171,7 +171,7 @@ const Project = () => {
             </Col>
           </Row>
           <Row className="d-flex flex-row justify-content-center">
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
@@ -194,7 +194,7 @@ const Project = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="cards_col">
+            <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
               >
