@@ -8,12 +8,12 @@ const Background = () => {
         <Container id="home">
           <Row>
             <Col md={6}>
-              <h1>
-                Hello, I'm <span>Dominion Olonilebi</span>
+              <h1 className="fs-1">
+                Hi, I'm <span>Dominion Olonilebi</span>
               </h1>
-              <h3>
+              <h4>
                 <MyTyped className="typed" />
-              </h3>
+              </h4>
               <p>
                 with experience in creating visually appealing
                 <br /> and user-friendly websites using
