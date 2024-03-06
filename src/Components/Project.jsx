@@ -28,7 +28,7 @@ const Project = () => {
             Providing excellent services and quality result to potential
             clients.
           </p>
-          <Row className="d-flex flex-row justify-content-center mb-4">
+          <Row className="d-flex flex-row justify-content-center">
             <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
@@ -99,7 +99,7 @@ const Project = () => {
               </div>
             </Col>
           </Row>
-          <Row className="d-flex flex-row justify-content-center mb-4">
+          <Row className="d-flex flex-row justify-content-center">
             <Col md={3} className="cards_col mb-3">
               <div
                 className={`slide-down-container ${isVisible ? "visible" : ""}`}
