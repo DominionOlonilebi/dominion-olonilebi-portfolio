@@ -9,8 +9,8 @@ const MyTyped = () => {
   useEffect(() => {
     const options = {
       strings: ["Creative Web Designer", "Skilled Frontend Developer"],
-      typeSpeed: 50,
-      backSpeed: 30,
+      typeSpeed: 90,
+      backSpeed: 50,
       loop: true,
     };
 

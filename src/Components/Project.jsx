@@ -205,9 +205,9 @@ const Project = () => {
                     className="absolute top=[100px] bottom=[-20px]"
                   >
                     <Placeholder as="p" animation="wave">
-                      <a href="https://titania.vercel.app/">
+                      <a href="https://cumunix-portfolio.vercel.app/">
                         <img
-                          src="Images/project7.JPG"
+                          src="Images/project5.JPG"
                           alt=""
                           className="img-fluid"
                         />
