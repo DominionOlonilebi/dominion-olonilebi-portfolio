@@ -25,10 +25,8 @@ const Project = () => {
             style={{ textAlign: "center", color: "rgb(253, 227, 193)" }}
             className="mb-5"
           >
-            I give my best to projects, pay absolute attention to information
-            given, to provide quality result to my potential clients. I am
-            excited to bring my skills and experience to help businessses and
-            companies achieve their goals to the fullest.{" "}
+            Providing excellent services and quality result to potential
+            clients.
           </p>
           <Row className="d-flex flex-row justify-content-center mb-4">
             <Col md={3} className="cards_col">

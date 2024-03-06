@@ -7,11 +7,7 @@ const Review = () => {
       <Container fluid id="review">
         <Container className="review_container">
           <h2>Client Review</h2>
-          <p style={{ textAlign: "center", color: "rgb(253, 227, 193)" }}>
-            I have had opportunities to work with potential clients and several
-            personal project work as seen in my github handle. <br />
-            Some of my project work includes
-          </p>
+
           <Row className="d-flex flex-row justify-content-center">
             <Col md={7} className="review_col">
               <img
