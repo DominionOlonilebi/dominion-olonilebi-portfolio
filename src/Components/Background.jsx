@@ -15,7 +15,7 @@ const Background = () => {
                 <MyTyped className="typed" />
               </h4>
               <p>
-                with experience in creating visually appealing
+                with experience in creating visually appealing, functional
                 <br /> and user-friendly websites using
               </p>
               <Placeholder as="p" animation="wave">
