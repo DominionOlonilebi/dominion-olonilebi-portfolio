@@ -48,12 +48,12 @@ color: #fff;
 .homes .homes_btn .hire_btn{
   background-color: transparent;
   border-color: rgb(250, 162, 111);
-  padding: 12px 40px;
+  padding: 8px 27px;
 }
 .homes .homes_btn .get_btn{
   background-color: rgb(219, 85, 31);
   border-color: rgb(219, 85, 31);
-  padding: 12px 30px;
+  padding: 8px 25px;
 }
 .homes .homes_btn .hire_btn a{
   color: #fff;
