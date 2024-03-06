@@ -7,8 +7,8 @@ const Background = () => {
       <Container fluid className="homes">
         <Container id="home">
           <Row>
-            <Col md={6}>
-              <h1 className="fs-1">
+            <Col md={6} className="mt-3">
+              <h1 className="fs-1 mb-2">
                 Hi, I'm <span>Dominion Olonilebi</span>
               </h1>
               <h4>
@@ -33,9 +33,8 @@ const Background = () => {
                 </Button>
               </div>
             </Col>
-            <Col md={6} className="mt-5">
-              <img src="Images/pen-1.png" alt="" className="mt-5" />
-              <img src="Images/pen-1.png" alt="" className="mt-5" />
+            <Col md={6} className="">
+              <img src="Images/laptop-5.png" alt="" className="img-fluid" />
             </Col>
           </Row>
         </Container>

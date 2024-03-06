@@ -1,12 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Button,
-  Card,
-  Col,
-  Container,
-  Placeholder,
-  Row,
-} from "react-bootstrap";
+import { Col, Container, Placeholder, Row } from "react-bootstrap";
 
 const Project = () => {
   const [isVisible, setIsVisible] = useState(false);
