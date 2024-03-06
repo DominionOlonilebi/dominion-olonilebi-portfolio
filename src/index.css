@@ -1,13 +1,193 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  background-color: rgb(14, 0, 14);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* navbar */
+.navbars .logo{
+  color: rgb(219, 85, 31);
+  padding-top: 17px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.navbars .logo:hover{
+color: #fff;
+}
+
+.navbars .navs .navs_heading{
+  color: rgb(219, 85, 31);
+  padding-top: 17px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.navbars .navs .navs_heading:hover{
+color: #fff;
+}
+
+/* home */
+.homes{
+    color: rgb(250, 162, 111);
+  padding-top: 145px;
+  padding-bottom: 60px;
+}
+
+.homes h6{
+  color: rgb(233, 232, 232);
+}
+.homes p {
+  color: rgb(250, 162, 111);
+}
+.homes span{
+  color: rgb(202, 202, 202);
+}
+.homes .homes_btn{
+  margin-top: 40px;
+  padding-bottom: 0px;
+  
+}
+.homes .homes_btn .hire_btn{
+  background-color: transparent;
+  border-color: rgb(250, 162, 111);
+  padding: 12px 40px;
+}
+.homes .homes_btn .get_btn{
+  background-color: rgb(219, 85, 31);
+  border-color: rgb(219, 85, 31);
+  padding: 12px 30px;
+}
+.homes .homes_btn .hire_btn a{
+  color: #fff;
+  background-color: transparent;
+  border-color: rgb(250, 162, 111);
+  text-decoration: none;
+}
+.homes .homes_btn .get_btn a{
+  color: rgb(14, 0, 14);
+  background-color: rgb(219, 85, 31);
+  border-color: rgb(219, 85, 31);
+  text-decoration: none;
+}
+
+
+.cards{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.cards h1{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color:rgb(219, 85, 31);
+
+}
+.cards .cards_card{
+  padding-top: 20px;
+  background-color: rgb(230, 230, 229);
+  padding-bottom: 40px;
+}
+
+/* card */
+.card_container .cards_text {
+  color: rgb(119, 117, 117);
+  font-size: 16px;
+  margin-bottom: -7px;
+}
+.card_container .cardss_text {
+  color: rgb(119, 117, 117);
+  font-size: 16px;
+  padding-bottom: 32px;
+}
+.card_container .cardssx_text {
+  color: rgb(119, 117, 117);
+  font-size: 16px;
+  padding-bottom: 9px;
+}
+.card_container .cardsx_text {
+  color: rgb(119, 117, 117);
+  font-size: 16px;
+  padding-bottom: 81px;
+}
+.card_container .card-fluid:hover {
+  transform: translateX(-20px);
+}
+.slide-down-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.slide-down-container.visible {
+  max-height: 1000px; /* Adjust the max-height based on your content */
+  transition: max-height 15.5s ease-in-out;
+}
+
+.slide-down-text {
+  opacity: 0;
+  transition: opacity 15.5s ease-in-out infinite;
+}
+
+.slide-down-container.visible .slide-down-text {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+
+/* testimonial */
+.review_container{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.review_container h6{
+  color:rgb(219, 85, 31);
+
+}
+.review_container h2{
+  text-align: center;
+  color:rgb(219, 85, 31);
+}
+.review_container .review_col{
+line-height: 35px;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+.review_container p{
+  font-size: 15px;
+  color: #fff;
+}
+
+/* contact */
+.contacts{
+  color: #fff;
+  border-radius: 10px;
+padding-bottom: 75px;
+padding-top: 45px;
+text-align: center;
+}
+.contacts p{
+  margin-top: 0px;
+  line-height: 10px;
+  font-size: 14px;
+}
+.contacts h5{
+  color: #fff;
+}
+.contacts h3{
+  padding-top: 10px;
+  text-align: center;
+  color:rgb(219, 85, 31);
+padding-bottom: 40px;
+}
+.contacts .contacts_cols{
+  padding-top: 50px;
+}
+.contacts .contacts_col{
+  color: rgb(250, 162, 111);
+}
+
+/* footer */
+#footers{
+  color: rgb(219, 85, 31);
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
 }
